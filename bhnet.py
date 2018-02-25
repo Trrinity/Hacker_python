@@ -128,7 +128,7 @@ def client_handler(client_socket):
         file_descriptor.write(file_buffer)
         file_descriptor.close()
 
-        #确认文件已经写出来了
+        #确认文件已经写出来了.
         client_socket.send("Successflly ")
     except:
         client_socket.send("failed saved to "
