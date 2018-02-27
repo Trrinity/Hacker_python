@@ -1,0 +1,6 @@
+admin:admin
+admin:123456
+admin:password
+root:root
+root:123456
+root:123
